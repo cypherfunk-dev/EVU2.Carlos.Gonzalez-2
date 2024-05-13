@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+ul {
+    list-style-type: none;
+    /* Ocultar el marcador por defecto */
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10%;
+    color: #222e50c9;
+}
+
+img {
+    margin-bottom: 10%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 6%;
+
+}

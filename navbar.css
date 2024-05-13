@@ -1,0 +1,114 @@
+.navbar-nav {
+    font-size: 25px;
+    padding: 25px 300px;
+    border-spacing: 200px;
+}
+
+.separacion-enlaces {
+    margin-right: 50px;
+}
+
+.navbar {
+    background-color: #222e50 !important;
+}
+
+.nav-item,
+.navbar-brand {
+    color: rgb(248, 247, 255) !important;
+
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+
+.custom-shape-divider-top-1715269407 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715269407 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-top-1715269407 .shape-fill {
+    fill: #222E50;
+}
+
+
+.svg-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the text */
+    font-size: 60px;
+    color: white;
+    /* Adjust as needed */
+    font-weight: bold;
+    font-family: Impact, fantasy;
+
+
+}
+
+.svg-text2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the text */
+    font-size: 40px;
+    color: white;
+    /* Adjust as needed */
+}
+
+.svg-text3 {
+    display: none
+}
+
+@media only screen and (max-width: 944px) {
+    .svg-text {
+        display: none;
+    }
+
+    .svg-text2 {
+        top: 30%;
+
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .svg-text {
+        display: none;
+    }
+
+    .svg-text2 {
+        display: none
+    }
+
+    .svg-text3 {
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* Center the text */
+        font-size: 40px;
+        color: white;
+        /* Adjust as needed */
+        font-weight: bold;
+    }
+}
